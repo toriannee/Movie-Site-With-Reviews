@@ -1,0 +1,21 @@
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 1098
+Date: Tue, 08 Nov 2022 16:25:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token - in JSON at position 0<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at createStrictSyntaxError (C:\Users\ToriA\Desktop\Free Code\node_modules\body-parser\lib\types\json.js:160:10)<br> &nbsp; &nbsp;at parse (C:\Users\ToriA\Desktop\Free Code\node_modules\body-parser\lib\types\json.js:83:15)<br> &nbsp; &nbsp;at C:\Users\ToriA\Desktop\Free Code\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:203:9)<br> &nbsp; &nbsp;at invokeCallback (C:\Users\ToriA\Desktop\Free Code\node_modules\raw-body\index.js:231:16)<br> &nbsp; &nbsp;at done (C:\Users\ToriA\Desktop\Free Code\node_modules\raw-body\index.js:220:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\Users\ToriA\Desktop\Free Code\node_modules\raw-body\index.js:280:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:513:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1359:12)</pre>
+</body>
+</html>
